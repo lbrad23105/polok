@@ -196,7 +196,7 @@ function colorMatrixGenerator() {
 	return color;
 }
 
-/*
+
 function colorPalette(color) {
 	var color = getColor(color)
 	var palette = []
@@ -207,7 +207,7 @@ function colorPalette(color) {
 		}
 	}
 }
-*/
+
 
 app.get("/",function(req,res){
 	res.redirect("/color")
