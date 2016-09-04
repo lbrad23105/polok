@@ -1,0 +1,12 @@
+{
+    "name": "polok",
+    "version": "1.0.0",
+    "description": "A simple yet robust color generator.",
+    "main": "polok.js",
+    "dependencies": {
+        "express":"*",
+        "node-powershell": "*"
+    },
+    "author": "Luke Brady",
+    "license": "ISC"
+}
