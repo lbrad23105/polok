@@ -183,7 +183,9 @@ function colorMatrixGenerator() {
 	for(i = 0; i < 256; i++)
 	{
 		for(j = 0; j < 256; j++){
-			colorArray = [Math.floor((Math.random() * 256) + 0),Math.floor((Math.random() * 256) + 0),Math.floor((Math.random() * 256) + 0)];
+			colorArray = [Math.floor((Math.random() * 256) + 0),
+						  Math.floor((Math.random() * 256) + 0),
+					 	  Math.floor((Math.random() * 256) + 0)];
 			colorMatrix.push(colorArray);
 		}
 	}
