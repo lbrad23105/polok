@@ -1,7 +1,5 @@
 var express = require("express")
 var app = express()
-var sys = require("sys")
-var powershell = require("node-powershell")
 
 function getColor(color) {
 	baseColorArray = [
