@@ -4,8 +4,7 @@
     "description": "A simple yet robust color generator.",
     "main": "polok.js",
     "dependencies": {
-        "express":"*",
-        "node-powershell": "*"
+        "express":"*"
     },
     "author": "Luke Brady",
     "license": "ISC"
